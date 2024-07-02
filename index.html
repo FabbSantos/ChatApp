@@ -5,13 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/main.css">
-  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | [Chat app CSS illustration]</title>
 </head>
 <body>
 
-  Samuel Green
+  <!-- Samuel Green
   Available to Walk
 
   That sounds great. I’d be happy with that.
@@ -30,17 +35,50 @@
   1 hour walk
   $49
 
-  Type a message…
+  Type a message… -->
 
-  Simple booking
+  <div class="container">
+    <div class="app">
+      <div class="appHeader">
+        <div class="dock"></div>
 
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
+        <div class="personProfile">
+          <
+          <img src="./assets/images/avatar.jpg" alt="Samuel Green">
+          
+          <div class="personInfo">
+            <h3>Samuel Green</h3>
+            <p>Available to Walk</p>
+          </div>
+
+          <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="main-text">
+      <h1>Simple booking</h1>
+    
+      <p>
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.
+      </p>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Fabrício Bahiense</a>.
+  </div>
+
+  <div class="background-element-left">
+  </div>
+  <div class="background-element-right">
   </div>
 </body>
 </html>
