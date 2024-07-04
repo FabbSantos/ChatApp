@@ -267,27 +267,38 @@ input:focus {
 }
 
 @media (max-width: 768px) {
+        body {
+                padding: 2rem;
+        }
         .container {
                 grid-template-columns: 1fr;
                 gap: 2rem;
         }
         .app {
                 max-width: 400px;
+                aspect-ratio: 0;
+                height: auto;
+                align-self: center;
+                padding-bottom: 1rem;
         }
         .main-text {
                 text-align: center;
-                padding-inline: 5%;
+                padding: 5%;
         }
         .personProfile {
-                /* gap: 1rem; */
+                gap: 1rem;
+                padding-block: .6rem;
         }
         .inputMessage {
-                width: 100%;
+                width: 90%;
         }
         .background-element-left {
                 display: none;
         }
         .background-element-right {
                 display: none;
+        }
+        .attribution{
+                padding-bottom: 5%;
         }
 }
