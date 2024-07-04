@@ -4,6 +4,7 @@
 
         /* left chat message  */
         --moderate-violet: hsl(276, 55%, 52%);
+        --moderate-violet-pale: hsl(276, 55%, 93%);
 
         /* right chat message */
         --dark-violet: hsl(271, 15%, 43%);
